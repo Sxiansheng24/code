@@ -1,0 +1,3 @@
+/media/ubunut/新加卷/VoxFormer/preprocess/mapping/CMakeFiles/rebuild_cache.dir
+/media/ubunut/新加卷/VoxFormer/preprocess/mapping/CMakeFiles/edit_cache.dir
+/media/ubunut/新加卷/VoxFormer/preprocess/mapping/CMakeFiles/mapping.dir

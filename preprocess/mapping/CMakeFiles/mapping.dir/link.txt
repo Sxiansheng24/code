@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Wall -Wextra -O3 -flto -shared  -o /media/ubunut/新加卷/VoxFormer/preprocess/mapping.cpython-37m-x86_64-linux-gnu.so CMakeFiles/mapping.dir/mapping.cpp.o 
