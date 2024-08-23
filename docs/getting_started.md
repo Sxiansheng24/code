@@ -5,22 +5,24 @@
 # Train and Test
 
 ## Stage-1: Class-Agnostic Query Proposal
-Train QPN with 4 GPUs 
+Train QPN with 2 GPUs 
 ```
-./tools/dist_train.sh ./projects/configs/voxformer/qpn.py 4
+python train_stage1.py CONFIG = projects/configs/AEFFSSC/qpn.py
+GPUS = 2
 ```
 
-Eval QPN with 4 GPUs
+Eval QPN with 2 GPUs
 ```
-./tools/dist_test.sh ./projects/configs/voxformer/qpn.py ./path/to/ckpts.pth 4
+python train_stage1.py 
 ```
 ## Stage-2: Class-Specific Voxel Segmentation
-Train VoxFormer with temporal information with 4 GPUs 
+Train AEFF-SSC with temporal information with 2 GPUs 
 ```
-./tools/dist_train.sh ./projects/configs/voxformer/voxformer-T.py 4
+python train_stage2.py CONFIG = projects/configs/AEFFSSC/AEFFSSC.py
+GPUS = 2
 ```
 
-Eval VoxFormer with temporal information with 4 GPUs
+Eval AEFF-SSC with temporal information with 2 GPUs
 ```
-./tools/dist_test.sh ./projects/configs/voxformer/voxformer-T.py ./path/to/ckpts.pth 4
+python train_stage2.py
 ```
