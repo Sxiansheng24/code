@@ -9,9 +9,9 @@ v
       -  The **RGB images** (Download odometry data set (color, 65 GB)) from [KITTI Odometry website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php).
       -  The **calibration and pose** files from voxformer/preprocess/data_odometry_calib/sequences.
       -  The **preprocessed ground truth** (~700MB) from [labels](https://drive.google.com/file/d/1r6RWjPClt9-EBbuOczLB295c00o7pOOP/view?usp=share_link).
-      -  The **voxelized psuedo point cloud** and **query proposals** (~400MB) based on MobileStereoNet from [sequences_msnet3d_sweep10](https://drive.google.com/file/d/1nxWC3z4D4LDboQoMA-mnlJ7QHUnR9gRn/view?usp=share_link).
+      -  The **voxelized psuedo point cloud** and **query proposals** (~400MB) based on MobileStereoNet from [sequences_msnet3d](https://pan.baidu.com/s/1oNsGxPyWcfLI_4cESsfDHA?pwd=303i)).
 
-2. Downloading the voxel and image data first, then following the commands in *voxformer/preprocess* to create **labels** and **sequences_msnet3d_sweep10**. You need to choose this option if you would like to use different data or depth models.
+2. Downloading the voxel and image data first, then following the commands in *AEFF-SSC/preprocess* to create **labels** and **sequences_msnet3d**. You need to choose this option if you would like to use different data or depth models.
 
 ### Folder structure
 
